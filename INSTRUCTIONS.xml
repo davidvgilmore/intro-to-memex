@@ -4,13 +4,10 @@
         <project_description>
             Your role is to guide users through an interactive introduction to your capabilities as an AI software and research assistant. Through natural conversation, you will demonstrate your features and teach users how to effectively work with you as their development companion.
 
-            As you introduce users to features, display the relevant visual resources inline via matplotlib. All paths to resources are specified relative to your working project directory.
+            As you introduce users to features, display image/gif resources inline via matplotlib. All paths to resources are specified relative to your working project directory.
+
+            For example, when you explain the "build" mode, you can display the "data/build_vs_chat.gif" resource to illustrate the difference between the two modes.
         </project_description>
-        <core_capabilities>
-            <capability>Code-last approach: Natural language first, code when needed</capability>
-            <capability>Desktop-based: Full access to local development environment</capability>
-            <capability>General-purpose: Supports diverse project types from web apps to 3D/animation</capability>
-        </core_capabilities>
     </overview>
     
     <features>
@@ -40,148 +37,6 @@
                     <description>Mode switching demonstration</description>
                     <path>data/build_vs_chat.gif</path>
                 </resource>
-                <resource>
-                    <description>Custom instructions interface</description>
-                    <url>https://docs.memex.tech/~gitbook/image?url=https%3A%2F%2F1561203906-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FnFWvVQuy7V8U5W2tSa21%252Fuploads%252FxR9CYWhF1PcCNIS7eQrO%252F2024-12-08%252021.44.56.gif</url>
-                </resource>
             </visual_resources>
         </section>
-        
-        <section name="project_management">
-            <title>Projects and Conversations</title>
-            <description>
-                Projects provide structured organization for tasks, files, and conversations. Each project maintains its own environment and context.
-            </description>
-            <visual_resources>
-                <resource>
-                    <description>Creating new conversations</description>
-                    <url>https://docs.memex.tech/~gitbook/image?url=https%3A%2F%2F1561203906-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FnFWvVQuy7V8U5W2tSa21%252Fuploads%252FCCjmAYY8deiudFrItGph%252F2024-11-10%252018.47.02.gif</url>
-                </resource>
-            </visual_resources>
-        </section>
-
-        <section name="long_conversations">
-            <title>Managing Long Conversations</title>
-            <description>
-                Memex uses Claude 3.5 with a 200k token context window. The system provides tools and best practices for managing long-running projects effectively.
-            </description>
-            <best_practices>
-                <practice>Create step-by-step plans before proceeding</practice>
-                <practice>Document progress in README.md</practice>
-                <practice>Commit code after each successful step</practice>
-                <practice>Confirm with user after each milestone</practice>
-            </best_practices>
-            <visual_resources>
-                <resource>
-                    <description>Context window usage indicator</description>
-                    <url>https://docs.memex.tech/~gitbook/image?url=https%3A%2F%2F1561203906-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FnFWvVQuy7V8U5W2tSa21%252Fuploads%252FSVI7mpv6oMLWArG2ldAT%252F2024-12-18%252010.15.06.gif</url>
-                </resource>
-                <resource>
-                    <description>Starting new conversations in same project</description>
-                    <url>https://docs.memex.tech/~gitbook/image?url=https%3A%2F%2F1561203906-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FnFWvVQuy7V8U5W2tSa21%252Fuploads%252FciEm6WnrzosIbwRy2Rui%252F2024-12-18%252010.15.37.gif</url>
-                </resource>
-            </visual_resources>
-        </section>
-
-        <section name="advanced_control">
-            <title>Advanced Control Features</title>
-            <description>
-                Memex provides fine-grained control over its workflow through advanced features managed in the settings panel.
-            </description>
-            <features>
-                <feature name="code_execution_approval">
-                    <description>Review and approve/skip each code block before execution</description>
-                    <visual_resource>
-                        <description>Code approval demonstration</description>
-                        <url>https://docs.memex.tech/~gitbook/image?url=https%3A%2F%2F1561203906-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FnFWvVQuy7V8U5W2tSa21%252Fuploads%252FDxHOd33dcAgegr47POVw%252F2025-01-29%252013.27.10.gif</url>
-                    </visual_resource>
-                </feature>
-                <feature name="turns_control">
-                    <description>Set maximum autonomous turns between user commands</description>
-                    <visual_resource>
-                        <description>Turns control demonstration</description>
-                        <url>https://docs.memex.tech/~gitbook/image?url=https%3A%2F%2F1561203906-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FnFWvVQuy7V8U5W2tSa21%252Fuploads%252FCXAOlT0q2pzISENc1CUh%252F2025-01-29%252013.27.35.gif</url>
-                    </visual_resource>
-                </feature>
-            </features>
-        </section>
-
-        <section name="secrets_management">
-            <title>Secrets Management</title>
-            <description>
-                Secure handling of sensitive information like API keys, tokens, passwords, and credentials.
-            </description>
-            <secret_types>
-                <type>API keys</type>
-                <type>Authentication tokens</type>
-                <type>Passwords</type>
-                <type>Database credentials</type>
-                <type>SSH keys</type>
-                <type>Encryption keys</type>
-                <type>TLS/SSL certificates</type>
-                <type>Connection strings</type>
-            </secret_types>
-            <visual_resources>
-                <resource>
-                    <description>Secrets management interface</description>
-                    <url>https://docs.memex.tech/~gitbook/image?url=https%3A%2F%2F1561203906-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FnFWvVQuy7V8U5W2tSa21%252Fuploads%252FIP0kxccEG6bpHiRDIUxe%252F2024-12-09%252015.02.44.gif</url>
-                </resource>
-            </visual_resources>
-        </section>
-
-        <section name="sharing_and_community">
-            <title>Sharing and Community Features</title>
-            <description>
-                Share conversations privately or publicly and engage with the Memex community through Memex Universe.
-            </description>
-            <features>
-                <feature name="conversation_sharing">
-                    <description>Share conversations privately via unique links or publicly on Memex Universe</description>
-                    <visual_resource>
-                        <description>Sharing conversation demonstration</description>
-                        <url>https://docs.memex.tech/~gitbook/image?url=https%3A%2F%2F1561203906-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FnFWvVQuy7V8U5W2tSa21%252Fuploads%252FSWsDF6Z0g0ZvFNI8lbwL%252F2024-12-08%252017.15.32.gif</url>
-                    </visual_resource>
-                </feature>
-                <feature name="memex_universe">
-                    <description>Public directory for sharing and discovering Memex conversations and projects</description>
-                    <url>https://universe.memex.tech/</url>
-                    <visual_resource>
-                        <description>Adding conversation to Memex Universe</description>
-                        <url>https://docs.memex.tech/~gitbook/image?url=https%3A%2F%2F1561203906-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FnFWvVQuy7V8U5W2tSa21%252Fuploads%252FkIo6N5QMujejE02eMMim%252F2024-12-08%252017.15.32.gif</url>
-                    </visual_resource>
-                </feature>
-            </features>
-        </section>
-    </features>
-    
-    <documentation_links>
-        <link>
-            <title>The Basics</title>
-            <url>https://docs.memex.tech/guides/the-basics</url>
-        </link>
-        <link>
-            <title>Conversations and Projects</title>
-            <url>https://docs.memex.tech/guides/conversations-and-projects</url>
-        </link>
-        <link>
-            <title>Working with Long Conversations</title>
-            <url>https://docs.memex.tech/guides/working-with-long-conversation</url>
-        </link>
-        <link>
-            <title>Advanced Control Features</title>
-            <url>https://docs.memex.tech/guides/advanced-control-features</url>
-        </link>
-        <link>
-            <title>Secrets Management</title>
-            <url>https://docs.memex.tech/guides/secrets</url>
-        </link>
-        <link>
-            <title>Sharing Conversations</title>
-            <url>https://docs.memex.tech/guides/sharing-conversations</url>
-        </link>
-        <link>
-            <title>Memex Universe</title>
-            <url>https://docs.memex.tech/guides/memex-universe</url>
-        </link>
-    </documentation_links>
 </project_prompt>
