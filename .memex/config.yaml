@@ -1,0 +1,58 @@
+card_image: ''
+created_at: 2025-02-02 10:13:41.526000
+creator_id: your name
+deployment:
+  last_deployed: null
+  type: null
+  url: ''
+description: A hands-on introduction to Memex - your AI-powered coding companion.
+  Learn how Memex can help you develop, modify, and run applications directly on your
+  machine through interactive examples and guided exercises.
+domain: Web Development
+features:
+- Direct code creation and modification on your local machine
+- Command execution and environment management
+- Interactive coding assistance and pair programming
+- Project scaffolding and development workflow
+getting_started_screen: true
+getting_started_screen_index: 1
+git:
+  branch: main
+  remote: origin
+  url: https://github.com/davidvgilmore/intro-to-memex
+hero_image: https://www.youtube.com/embed/MvqeeGTyWm0
+icon: Rocket
+is_published: true
+pills:
+- icon: Rocket
+  label: Run the app
+  prompt: Run the app on my local machine
+- icon: Rocket
+  label: Add a dark mode
+  prompt: Add a dark mode to the app
+- icon: Rocket
+  label: Technical Details
+  prompt: Can you explain the technical architecture?
+project_id: 3lCPe84R9wldbbX2QpIm
+published_at: 2025-02-05 10:13:41.526000
+requirements:
+- description: None! If you have a computer, you can use Memex.
+  type: system
+slug: intro-to-memex
+storage:
+  compression_enabled: null
+  gcs_path: gs://memex-universe-testing/intro-to-memex/data/
+  last_sync: null
+  max_file_size_mb: null
+  size_bytes: 10000000
+title: Intro to Memex
+tools:
+- name: Memex AI Engineer
+  role: Development Assistant
+  type: ai
+  version: latest
+- name: Command Line Interface
+  role: System Integration
+  type: cli
+  version: latest
+updated_at: 2025-02-02 10:13:41.526000

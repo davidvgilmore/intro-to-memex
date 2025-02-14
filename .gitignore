@@ -1,3 +1,4 @@
 data/*
 .memex/*
 .DS_Store
+!data/.gitkeep
