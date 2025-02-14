@@ -1,5 +1,5 @@
 card_image: ''
-created_at: 2025-02-02 10:13:41.526000
+created_at: 2025-02-02 04:13:41.526000
 creator_id: your name
 deployment:
   last_deployed: null
@@ -21,7 +21,7 @@ git:
   remote: origin
   url: https://github.com/davidvgilmore/intro-to-memex
 hero_image: https://www.youtube.com/embed/MvqeeGTyWm0
-icon: Rocket
+icon: WatsonHealth3DCurveAutoColon
 is_published: true
 pills:
 - icon: Rocket
@@ -55,4 +55,4 @@ tools:
   role: System Integration
   type: cli
   version: latest
-updated_at: 2025-02-02 10:13:41.526000
+updated_at: 2025-02-02 04:13:41.526000
